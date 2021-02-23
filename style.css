@@ -1,0 +1,36 @@
+#main{
+    margin-left: 200px;
+        font-size: 60px;
+        font-family: monospace;
+}
+
+
+footer{
+    margin: 100% 0 0 0;
+    font-size: 20px;
+    
+}
+body{
+    background-image: url(https://st2.depositphotos.com/6304688/11185/i/950/depositphotos_111856782-stock-photo-blue-flowers-on-blue-background.jpg);
+    
+}
+#ss1{
+    font-size: 40px;
+    float:none
+}
+
+#ss{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow:auto;
+    margin-left: 100px;
+  display: block;
+  text-align: center;
+  padding: 11px 16px;
+  text-decoration: none
+
+}
+#ss2{
+    font-size: 20px;
+    float:none
+}
