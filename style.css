@@ -1,5 +1,5 @@
 #main{
-    margin-left: 200px;
+    margin-left: 250px;
         font-size: 60px;
         font-family: monospace;
 }
@@ -10,10 +10,7 @@ footer{
     font-size: 20px;
     
 }
-body{
-    background-image:url('https://st2.depositphotos.com/6304688/11185/i/950/depositphotos_111856782-stock-photo-blue-flowers-on-blue-background.jpg');
-    
-}
+
 #ss1{
     font-size: 40px;
     float:none
