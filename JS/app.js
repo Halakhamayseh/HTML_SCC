@@ -12,22 +12,31 @@ if (genderUserInput==='girl' && gradeUserInput==='seventh' && mathMarkUserInput 
 }else{console.log("that is not correct");
 alert('Good luck')
 };
+var tripcCount=prompt("how many your trips with us?");
+while(tripcCount<5){
+    alert('please enter more than 5')
+    tripcCount=prompt("how many your trips with us?");
+}
+for(var i =0;i <= tripcCount; i++){
+    
+    document.write('<img src="https://amrkhaled.net/uploads/old/Large/1020183215437313502292.jpg"/> ');
+}
 // if (){
 //     console.log("that is correct");
 //     alert('congratulation')
-// }else{console.log("that is correct");
+// }else{console.log("that is not correct");
 // alert('Good luck')
 // };
 // if (){
 //     console.log("that is correct");
 //     alert('congratulation')
-// }else{console.log("that is correct");
+// }else{console.log("that is not correct");
 // alert('Good luck')
 // };
 // if (){
 //     console.log("that is correct");
 //     alert('congratulation')
-// }else{console.log("that is correct");
+// }else{console.log("that is not correct");
 // alert('Good luck')
 // };
 
