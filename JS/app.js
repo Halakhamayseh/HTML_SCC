@@ -1,4 +1,5 @@
-var gender='girl';
+
+/*var gender='girl';
 var grade='seventh';
 var mathMark=20;
 var nationality='Jordanian';
@@ -12,15 +13,21 @@ if (genderUserInput==='girl' && gradeUserInput==='seventh' && mathMarkUserInput 
 }else{console.log("that is not correct");
 alert('Good luck')
 };
+*/
+
 var tripcCount=prompt("how many your trips with us?");
-while(tripcCount<5){
+
+function count(x){
+while(x<5){
     alert('please enter more than 5')
-    tripcCount=prompt("how many your trips with us?");
+   x=prompt("how many your trips with us?");
 }
-for(var i =0;i <= tripcCount; i++){
+for(var i =0;i <= x; i++){
     
     document.write('<img src="https://amrkhaled.net/uploads/old/Large/1020183215437313502292.jpg"/> ');
 }
+}
+count(tripcCount)
 // if (){
 //     console.log("that is correct");
 //     alert('congratulation')
